@@ -21,7 +21,7 @@ If you are unsure on any requirements use your best judgement to determine the e
 4. The size of the size of directory was not specified so 0 <=N >= 10000.
 5. It was assumed all JSON files in the directory were of the specified structure scheme.
 
-## Getting Stared 
+## Getting Started 
 Using your preferred Version control software , clone this repository using git clone (Https or SSH).
 This will clone jsonboardsCLI into your local directory. Open your terminal in the new directory labelled jsonboardsCLI.
 
@@ -32,7 +32,7 @@ Please use the link to find the downlaod page [NodeJS](https://nodejs.org/en/dow
 ### Dependencies
 node prompt - A command-line prompt for node.js.
 
-## Getting Started
+## Steps to use the CLI
 1. Open command terminal that has access to node. 
 2. Run "npm i" to install node dependencies.
 3. Next run "node boardCombiner.js"
