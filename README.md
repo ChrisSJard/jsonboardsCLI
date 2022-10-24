@@ -8,8 +8,8 @@ You have been tasked with creating this command line tool that when given the pa
 * Combine all board lists inside the JSON files into a single JSON output
 * Order the board list alphabetically first by vendor, and then by name
 * Include metadata in the JSON output under a _metadata object including:
-** The total number of unique vendors
-** The total number of boards
+  * The total number of unique vendors.
+  * The total number of boards.
 * Output the resultant JSON
 
 If you are unsure on any requirements use your best judgement to determine the expected output. You should list any assumptions you have made.
@@ -18,7 +18,7 @@ If you are unsure on any requirements use your best judgement to determine the e
 1. The form of the input file was not specified so a command line prompt was used to recieve input from user.
 2. The output of the file was not specified where to save the outfile so the directory chosen was given.
 3. The name of the output was not given so output.json was used.
-4. The size of the size of directory was not specified so 0 <=N >= 10000.
+4. The size of the size of directory was not specified so 0 <= N <= 10000.
 5. It was assumed all JSON files in the directory were of the specified structure scheme.
 
 ## Getting Started 
