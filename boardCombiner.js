@@ -20,7 +20,6 @@ async function main(inputPath) {
                     "total_vendors":0,
                     "total_boards": 0
     }};
-    inputPath
     const dirLocation = inputPath;
     const files = await directoryReader(dirLocation);
     for (let file of files) {
